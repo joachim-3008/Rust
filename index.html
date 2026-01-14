@@ -3,91 +3,260 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Document</title>
   </head>
   <style>
-    div{
-          display: flex;
-          flex-direction: column;
-      }
-      h4,a{
-        font-family: "Roboto Mono", monospace;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-style: normal;
-      }
-      h3{
-        font-family: "Roboto Mono", monospace;
-        font-optical-sizing: auto;
-        font-weight: weight;
-        font-style: normal;
-        
-        color: black;
-  }
-      .subtitulo1, .subtitulo2, .subtitulo3, .subtitulo4, .subtitulo5, .subtitulo6, .subtitulo7{
-        position: relative;
-        top: auto;
-        left: 100px;
-        
-      }
+    div {
+      display: flex;
+      flex-direction: column;
 
-   h3, h4, a{
-  display: inline-block; 
-  vertical-align: middle; 
-  margin: 5px; 
-  display: flex;
-        gap: 20px;
-        flex-direction: row;
-        position: relative;
-        top: -30px;
-        left: 400px;
+      
 
-} 
+    }
+    h4,
+    a {
+      font-family: "Roboto Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+    }
+    h3 {
+      font-family: "Roboto Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
 
-    body{
-        margin: 0;
-        min-height: 300vh;
-        overflow-x: hidden;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        }
-     
+      color: black;
+    }
+    .subtitulo1,
+    .subtitulo2,
+    .subtitulo3,
+    .subtitulo4,
+    .subtitulo5,
+    .subtitulo6,
+    .subtitulo7 {
+      position: relative;
+      top: auto;
+      left: 100px;
+    }
+    .parrafo {
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0.1em;
+      line-height: 32px;
+    }
+
+    .parrafo,
+    .subtitulo8,
+    .subtitulo9,
+    .subtitulo10,
+    .subtitulo11 {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      top: -332px;
+      left: 650px;
+    }
+    h3,
+    h4,
+    a {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 5px;
+      display: flex;
+      gap: 20px;
+      flex-direction: row;
+      position: relative;
+      top: -30px;
+      left: 400px;
+    }
+
+    body {
+      margin: 0;
+      min-height: 600vh;
+      overflow-x: hidden;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
     .imagen-fondo {
-        line-height: 0;
-    
-}
+      line-height: 0;
+    }
 
     .imagen-encima {
-        position: absolute; 
-        top: 20px;          
-        left: 20px;         
-        width: 400px;       
-}
-
-    a{
-        color: red;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 400px;
     }
-  </style>
+
+    a {
+      color: red;
+    }
+    .contenedor-Videos{
+        display: flex;        
+        justify-content: center;
+        align-items: center;   
+        margin: 20px 0;
+    }
+
     
+  </style>
 
   <body>
-   
-   <div>
-    
-        <img src="fondoarriba.jpg" alt="Imagen de fondo" class="imagen-fondo">
-        <img src="logo.png" alt="Imagen superpuesta" class="imagen-encima">
-    <h3 class="subtitulo1">Desarrollador </h3> <h4>Estudios Facepunch</h4>
-    <h3 class="subtitulo2">Primer lanzamiento</h3> <h4>Diciembre del 2013</h4>
-    <h3 class="subtitulo3">Lanzamiento comercial </h3>  <h4>Febrero del 2018</h4>
-    <h3 class="subtitulo4">Lanzamiento en consola </h3> <h4>Mayo del 2021</h4>
-    <h3 class="subtitulo5">Sitio web</h3>   <a href="https://rust.facepunch.com/" target="_blank">rust.facepunch.com</a>
+    <div>
+      <img src="fondoarriba.jpg" alt="Imagen de fondo" class="imagen-fondo" />
+      <img src="logo.png" alt="Imagen superpuesta" class="imagen-encima" />
+      <h3 class="subtitulo1">Desarrollador</h3>
+      <h4>Estudios Facepunch</h4>
+      <h3 class="subtitulo2">Primer lanzamiento</h3>
+      <h4>Diciembre del 2013</h4>
+      <h3 class="subtitulo3">Lanzamiento comercial</h3>
+      <h4>Febrero del 2018</h4>
+      <h3 class="subtitulo4">Lanzamiento en consola</h3>
+      <h4>Mayo del 2021</h4>
+      <h3 class="subtitulo5">Sitio web</h3>
+      <a href="https://rust.facepunch.com/" target="_blank"
+        >rust.facepunch.com</a
+      >
 
-   
+      <h4 class="parrafo">
+        Rust es un shooter multijugador de supervivencia y uno de los juegos más
+        populares de <br />
+        Steam, tanto por número de jugadores como por reseñas, y sigue
+        creciendo. <br />
+        En su duodécimo año y con más de 380 actualizaciones de contenido, cada
+        mes se <br />
+        añade algo nuevo. Rust tiene una calificación de reseñas "muy positiva"
+        en Steam (con <br />
+        1 000 000 de reseñas positivas) y es uno de los juegos más vistos en
+        Twitch. <br />
+        Mantenemos una estrecha relación con nuestra vibrante comunidad de
+        creadores de <br />
+        contenido, diseñadores de aspectos, creadores de mods, operadores de
+        servidores y <br />
+        más. <br /><br />
+
+        Rust Console Edition está desarrollado y publicado por Double Eleven y
+        lleva la <br />
+        experiencia de Rust a Xbox Series S/X y PlayStation 5. Puedes
+        comprobarlo aquí . <br /><br />
+      </h4>
+      <h3 class="subtitulo8">Acerca del Juego <br /><br /></h3>
+
+      <h4 class="parrafo">
+        El único objetivo en Rust es sobrevivir. Todo quiere que mueras: la
+        fauna de la isla, los <br />
+        demás habitantes, el entorno y los demás supervivientes. Haz lo que sea
+        necesario para <br />
+        sobrevivir otra noche. <br /><br />
+
+        Rust cumple 12 años de expansión continua y ha recibido más de 380
+        actualizaciones de <br />
+        contenido, con un parche de contenido garantizado cada mes. Estas
+        incluyen <br />
+        correcciones de equilibrio regulares y mejoras en la IA y los gráficos,
+        así como <br />
+        actualizaciones de entornos y la frecuente incorporación de contenido
+        como nuevos <br />
+        mapas, más armas, vehículos adicionales y una gran cantidad de objetos
+        útiles. <br />
+        Mantente atento a los eventos de temporada regulares, ya que siempre hay
+        algo <br />
+        interesante o peligroso (o ambos) ocurriendo en la isla. <br />
+        Las actualizaciones del juego incluyen: <br /><br />
+
+        * Mundos generados procedimentalmente con soporte del editor de mapas de
+        la <br />
+        comunidad <br /><br />
+
+        * Aloje sus propios servidores y soporte de modificación del lado del
+        servidor <br /><br />
+
+        * Transporte: caballos, coches modulares, globos aerostáticos,
+        helicópteros, bicicletas, <br />
+        trenes, barcos y más.<br /><br />
+
+        * Sistemas eléctricos, agrícolas y de automatización complejos<br /><br />
+
+        * Construcción de bases y asaltos<br /><br />
+
+        * Nuevas facciones, enemigos y vida salvaje.<br /><br />
+
+        * Nuevos monumentos, terrenos y áreas para explorar.<br /><br />
+
+        * Áreas submarinas avanzadas por descubrir<br /><br />
+
+        * Instrumentos musicales y la capacidad de tocarlos para los
+        jugadores.<br /><br />
+
+        * Grandes redes de trenes de superficie y subterráneos<br /><br />
+
+        * Gran actualización reciente de gráficos y revisión del entorno<br /><br />
+
+        * ..y mucho más <br /><br />
+      </h4>
+
+      <h3 class="subtitulo9">EXPLORA</h3>
+      <h4 class="parrafo">
+        Te despiertas desnudo en una isla misteriosa, armado solo con una roca y
+        una antorcha. <br />
+        Tendrás que enfrentarte a peligros y deficiencias ambientales (desde
+        calor y frío hasta <br />
+        sed y hambre), construir un refugio, comer (o ser comido) y buscar
+        materiales. Explora la <br />
+        isla y sus asentamientos abandonados, sus misteriosos monumentos y las
+        facciones que <br />los ocupan. Pero, sobre todo, ten cuidado con los
+        demás supervivientes...
+      </h4>
+      <h3 class="subtitulo10">CONSTRUYE</h3>
+      <h4 class="parrafo">
+        Diseña y construye bases para almacenar tu botín, defender tu territorio
+        y controlar los <br />recursos de la isla. Investiga el árbol
+        tecnológico, cultiva granjas, controla la electricidad y <br />
+        controla diversos medios de transporte para recorrer la isla. Haz lo que
+        sea necesario <br />
+        para avanzar.
+      </h4>
+      <h3 class="subtitulo11">SOBREVIVE</h3>
+      <h4 class="parrafo">
+        En Rust no hay reglas, salvo las que tú mismo creas. Fabrica
+        herramientas, armaduras y <br> armas para defenderte. Coopera con amigos,
+        forja alianzas y construye un asentamiento <br> juntos. Explora la isla y lo
+        que ocurre en ella, comercia con otros jugadores o agárrate a <br>ellos,
+        asaltando sus bases y robando los bienes que tanto les costó conseguir.
+      </h4>
+
+
+    </div>
+    <div class="contenedor-Videos">
+
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/LGcECozNXEw?si=vI4ozi1BGAJHec2a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     </div>
   </body>
