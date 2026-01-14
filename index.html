@@ -14,7 +14,7 @@
           display: flex;
           flex-direction: column;
       }
-      h4{
+      h4,a{
         font-family: "Roboto Mono", monospace;
         font-optical-sizing: auto;
         font-weight: 300;
@@ -35,7 +35,7 @@
         
       }
 
-   h3, h4{
+   h3, h4, a{
   display: inline-block; 
   vertical-align: middle; 
   margin: 5px; 
@@ -50,12 +50,15 @@
 
     body{
         margin: 0;
+        min-height: 300vh;
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0;
         padding: 0;
         }
      
     .imagen-fondo {
-        width: 100%;     
-        height: 500px;
+        line-height: 0;
     
 }
 
@@ -65,6 +68,10 @@
         left: 20px;         
         width: 400px;       
 }
+
+    a{
+        color: red;
+    }
   </style>
     
 
@@ -74,13 +81,13 @@
     
         <img src="fondoarriba.jpg" alt="Imagen de fondo" class="imagen-fondo">
         <img src="logo.png" alt="Imagen superpuesta" class="imagen-encima">
-    <h3 class="subtitulo1">Revelador </h3> <h4>Estudios Facepunch</h4>
+    <h3 class="subtitulo1">Desarrollador </h3> <h4>Estudios Facepunch</h4>
     <h3 class="subtitulo2">Primer lanzamiento</h3> <h4>Diciembre del 2013</h4>
-    <h3 class="subtitulo3">lanzamiento comercial </h3>  <h4>Febrero del 2018</h4>
-    <h3 class="subtitulo4">Lanzamiento de consola </h3> <h4>Mayo del 2021</h4>
-    <h3 class="subtitulo5">Sitio web</h3>
-    <h3 class="subtitulo6">Contacto</h3>
-    <h3 class="subtitulo7">Social</h3>
+    <h3 class="subtitulo3">Lanzamiento comercial </h3>  <h4>Febrero del 2018</h4>
+    <h3 class="subtitulo4">Lanzamiento en consola </h3> <h4>Mayo del 2021</h4>
+    <h3 class="subtitulo5">Sitio web</h3>   <a href="https://rust.facepunch.com/" target="_blank">rust.facepunch.com</a>
+
+   
 
     </div>
   </body>
