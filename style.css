@@ -50,9 +50,11 @@ body {
 .contenedor-informacion, .parrafo{
     display: flex;
     justify-content: flex-end;
-    font-family: "Roboto Mono", monospace;
-    font-weight: 100;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 
 }
 .subtitulo{
@@ -115,12 +117,22 @@ body {
 a{
     color: rgb(246, 2, 2);
 }
+header {
+    text-align: center; 
+    padding: 10px;
+}
+header img {
+    max-height: 50px; 
+}
 
 
 
 @media (max-width: 480px){
+    .imagen-zoom:hover{
+        transform: scale(1.7);
+    }
     .parte-final{
-        font-size: 10px;
+        font-size: 8px;
     }
     .imagenes-fondo{
         padding: 15px;
@@ -158,5 +170,56 @@ a{
     }
     .columnas{
         gap: 0px;
+    }
+}
+@media (max-width: 431px){
+    .contenedor-img img{
+        width: auto;
+        height: 179px; 
+        
+    }
+}
+
+@media (max-width: 415px){
+    .contenedor-img img{
+        width: auto;
+        height: 173px; 
+        
+    }
+}
+@media (max-width: 413px){
+    .contenedor-img img{
+        width: auto;
+        height: 172px; 
+        
+    }
+}
+@media (max-width: 391px){
+    .contenedor-img img{
+        width: auto;
+        height: 163px; 
+        
+    }
+}
+
+@media (max-width: 376px){
+    .contenedor-img img{
+        width: auto;
+        height: 156px; 
+        
+    }
+}
+@media (max-width: 360px){
+    .contenedor-img img{
+        width: auto;
+        height: 150px; 
+        
+    }
+}
+@media (max-width: 344px){
+    .contenedor-img img{
+        width: auto;
+        height: 143px; 
+        
     }
 }
